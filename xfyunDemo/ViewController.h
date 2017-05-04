@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)speakNow:(UIButton *)sender;
+- (IBAction)listenNow:(UIButton *)sender;
+
 
 
 @end

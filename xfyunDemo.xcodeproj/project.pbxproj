@@ -15,6 +15,18 @@
 		5AA0D2ED1E9B6D4B000EA8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AA0D2EB1E9B6D4B000EA8FC /* LaunchScreen.storyboard */; };
 		5AA0D2F81E9B6D4C000EA8FC /* xfyunDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0D2F71E9B6D4C000EA8FC /* xfyunDemoTests.m */; };
 		5AA0D3031E9B6D4C000EA8FC /* xfyunDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0D3021E9B6D4C000EA8FC /* xfyunDemoUITests.m */; };
+		5AA0D3141E9B703E000EA8FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3131E9B703E000EA8FC /* CoreLocation.framework */; };
+		5AA0D3161E9B7046000EA8FC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3151E9B7046000EA8FC /* CoreTelephony.framework */; };
+		5AA0D3181E9B704D000EA8FC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3171E9B704D000EA8FC /* AVFoundation.framework */; };
+		5AA0D31A1E9B705A000EA8FC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3191E9B705A000EA8FC /* AddressBook.framework */; };
+		5AA0D31C1E9B7065000EA8FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D31B1E9B7065000EA8FC /* AudioToolbox.framework */; };
+		5AA0D31E1E9B7070000EA8FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D31D1E9B7070000EA8FC /* SystemConfiguration.framework */; };
+		5AA0D3201E9B707D000EA8FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D31F1E9B707D000EA8FC /* QuartzCore.framework */; };
+		5AA0D3221E9B7085000EA8FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3211E9B7085000EA8FC /* UIKit.framework */; };
+		5AA0D3241E9B708D000EA8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3231E9B708D000EA8FC /* Foundation.framework */; };
+		5AA0D3261E9B7094000EA8FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3251E9B7094000EA8FC /* CoreGraphics.framework */; };
+		5AA0D3281E9B7121000EA8FC /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3271E9B7121000EA8FC /* libz.1.dylib */; };
+		5AA0D32A1E9B720F000EA8FC /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA0D3291E9B720F000EA8FC /* iflyMSC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0AE9F01EB824A500E94A58 /* xfyunDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xfyunDemo.entitlements; sourceTree = "<group>"; };
 		5AA0D2DA1E9B6D4B000EA8FC /* xfyunDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xfyunDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA0D2DE1E9B6D4B000EA8FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AA0D2E01E9B6D4B000EA8FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,19 @@
 		5AA0D2FE1E9B6D4C000EA8FC /* xfyunDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xfyunDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA0D3021E9B6D4C000EA8FC /* xfyunDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xfyunDemoUITests.m; sourceTree = "<group>"; };
 		5AA0D3041E9B6D4C000EA8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AA0D3111E9B6F9B000EA8FC /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = ../../Downloads/iOS_voice_1156_58eb36f7/lib/iflyMSC.framework; sourceTree = "<group>"; };
+		5AA0D3131E9B703E000EA8FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5AA0D3151E9B7046000EA8FC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5AA0D3171E9B704D000EA8FC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5AA0D3191E9B705A000EA8FC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5AA0D31B1E9B7065000EA8FC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5AA0D31D1E9B7070000EA8FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5AA0D31F1E9B707D000EA8FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5AA0D3211E9B7085000EA8FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AA0D3231E9B708D000EA8FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AA0D3251E9B7094000EA8FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AA0D3271E9B7121000EA8FC /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		5AA0D3291E9B720F000EA8FC /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA0D3281E9B7121000EA8FC /* libz.1.dylib in Frameworks */,
+				5AA0D3261E9B7094000EA8FC /* CoreGraphics.framework in Frameworks */,
+				5AA0D3241E9B708D000EA8FC /* Foundation.framework in Frameworks */,
+				5AA0D3221E9B7085000EA8FC /* UIKit.framework in Frameworks */,
+				5AA0D3201E9B707D000EA8FC /* QuartzCore.framework in Frameworks */,
+				5AA0D31E1E9B7070000EA8FC /* SystemConfiguration.framework in Frameworks */,
+				5AA0D31C1E9B7065000EA8FC /* AudioToolbox.framework in Frameworks */,
+				5AA0D31A1E9B705A000EA8FC /* AddressBook.framework in Frameworks */,
+				5AA0D3181E9B704D000EA8FC /* AVFoundation.framework in Frameworks */,
+				5AA0D3161E9B7046000EA8FC /* CoreTelephony.framework in Frameworks */,
+				5AA0D3141E9B703E000EA8FC /* CoreLocation.framework in Frameworks */,
+				5AA0D32A1E9B720F000EA8FC /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +119,12 @@
 		5AA0D2D11E9B6D4B000EA8FC = {
 			isa = PBXGroup;
 			children = (
+				5AA0D3291E9B720F000EA8FC /* iflyMSC.framework */,
 				5AA0D2DC1E9B6D4B000EA8FC /* xfyunDemo */,
 				5AA0D2F61E9B6D4C000EA8FC /* xfyunDemoTests */,
 				5AA0D3011E9B6D4C000EA8FC /* xfyunDemoUITests */,
 				5AA0D2DB1E9B6D4B000EA8FC /* Products */,
+				5AA0D3101E9B6F9B000EA8FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +141,7 @@
 		5AA0D2DC1E9B6D4B000EA8FC /* xfyunDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5A0AE9F01EB824A500E94A58 /* xfyunDemo.entitlements */,
 				5AA0D2E01E9B6D4B000EA8FC /* AppDelegate.h */,
 				5AA0D2E11E9B6D4B000EA8FC /* AppDelegate.m */,
 				5AA0D2E31E9B6D4B000EA8FC /* ViewController.h */,
@@ -138,6 +179,25 @@
 				5AA0D3041E9B6D4C000EA8FC /* Info.plist */,
 			);
 			path = xfyunDemoUITests;
+			sourceTree = "<group>";
+		};
+		5AA0D3101E9B6F9B000EA8FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA0D3271E9B7121000EA8FC /* libz.1.dylib */,
+				5AA0D3251E9B7094000EA8FC /* CoreGraphics.framework */,
+				5AA0D3231E9B708D000EA8FC /* Foundation.framework */,
+				5AA0D3211E9B7085000EA8FC /* UIKit.framework */,
+				5AA0D31F1E9B707D000EA8FC /* QuartzCore.framework */,
+				5AA0D31D1E9B7070000EA8FC /* SystemConfiguration.framework */,
+				5AA0D31B1E9B7065000EA8FC /* AudioToolbox.framework */,
+				5AA0D3191E9B705A000EA8FC /* AddressBook.framework */,
+				5AA0D3171E9B704D000EA8FC /* AVFoundation.framework */,
+				5AA0D3151E9B7046000EA8FC /* CoreTelephony.framework */,
+				5AA0D3131E9B703E000EA8FC /* CoreLocation.framework */,
+				5AA0D3111E9B6F9B000EA8FC /* iflyMSC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +267,16 @@
 				TargetAttributes = {
 					5AA0D2D91E9B6D4B000EA8FC = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = YD2EDN9H58;
+						DevelopmentTeam = 326CN7K7KT;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 					5AA0D2F21E9B6D4C000EA8FC = {
 						CreatedOnToolsVersion = 8.3;
@@ -427,11 +495,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YD2EDN9H58;
+				CODE_SIGN_ENTITLEMENTS = xfyunDemo/xfyunDemo.entitlements;
+				DEVELOPMENT_TEAM = 326CN7K7KT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = xfyunDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testdemo.xfyunDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.www.office.wpsoffice.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -439,11 +511,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YD2EDN9H58;
+				CODE_SIGN_ENTITLEMENTS = xfyunDemo/xfyunDemo.entitlements;
+				DEVELOPMENT_TEAM = 326CN7K7KT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = xfyunDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.testdemo.xfyunDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingsoft.www.office.wpsoffice.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};
@@ -516,6 +592,7 @@
 				5AA0D3091E9B6D4C000EA8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AA0D30A1E9B6D4C000EA8FC /* Build configuration list for PBXNativeTarget "xfyunDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +601,7 @@
 				5AA0D30C1E9B6D4C000EA8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AA0D30D1E9B6D4C000EA8FC /* Build configuration list for PBXNativeTarget "xfyunDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +610,7 @@
 				5AA0D30F1E9B6D4C000EA8FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
